@@ -15,7 +15,7 @@ int main() {
     int x;
     std::cout << "Enter a number to get it's multiplication's table" << std::endl;
     std::cin >> x;
-    std::cout << "The multiplication table of " << x << " is: ";
+    std::cout << "The multiplication table of " << x << " is:\n";
     multiplicationTable(x);
     return 0;
 }
