@@ -3,9 +3,6 @@
 //
 #include <iostream>
 
-char c = '\x01';
-short int p = 10;
-
 int main()
 {
     int N = 10;

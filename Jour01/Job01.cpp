@@ -10,7 +10,7 @@ int main()
 {
     const int x = p + 3;
     constexpr int c = 5;
-    const int y = c + 1;
+    constexpr int y = c + 1;
     const int z = p + c;
     const int w = 3 * p + 5 * c;
     std::cout << x << ", " << y << ", " << z << ", " << w << std::endl;
