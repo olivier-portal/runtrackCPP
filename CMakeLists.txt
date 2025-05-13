@@ -4,20 +4,40 @@ project(runtrackCPP)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/Jour01/bin)
+# ----------- Compilation des fichiers de Jour01 -----------
+foreach(i RANGE 0 14)
+    if(i LESS 10)
+        set(i_padded 0${i})
+    else()
+        set(i_padded ${i})
+    endif()
 
-add_executable(Job00 Jour01/Job00.cpp)
-add_executable(Job01 Jour01/Job01.cpp)
-add_executable(Job02 Jour01/Job02.cpp)
-add_executable(Job03 Jour01/Job03.cpp)
-add_executable(Job04 Jour01/Job04.cpp)
-add_executable(Job05 Jour01/Job05.cpp)
-add_executable(Job06 Jour01/Job06.cpp)
-add_executable(Job07 Jour01/Job07.cpp)
-add_executable(Job08 Jour01/Job08.cpp)
-add_executable(Job09 Jour01/Job09.cpp)
-add_executable(Job10 Jour01/Job10.cpp)
-add_executable(Job11 Jour01/Job11.cpp)
-add_executable(Job12 Jour01/Job12.cpp)
-add_executable(Job13 Jour01/Job13.cpp)
-add_executable(Job14 Jour01/Job14.cpp)
+    set(exe_name Job${i_padded})
+    set(src_file Jour01/${exe_name}.cpp)
+
+    add_executable(${exe_name}_J1 ${src_file})
+    set_target_properties(${exe_name}_J1 PROPERTIES
+            OUTPUT_NAME ${exe_name}
+            RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/Jour01/bin
+    )
+endforeach()
+
+# --- Compilation des fichiers de Jour02 ---
+foreach(i RANGE 0 12)
+    if(i LESS 10)
+        set(i_padded 0${i})
+    else()
+        set(i_padded ${i})
+    endif()
+
+    set(exe_name Job${i_padded})
+    set(src_file ${CMAKE_SOURCE_DIR}/Jour02/${exe_name}.cpp)
+
+    if(EXISTS ${src_file})
+        add_executable(${exe_name}_J2 ${src_file})
+        set_target_properties(${exe_name}_J2 PROPERTIES
+                OUTPUT_NAME ${exe_name}
+                RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/Jour02/bin
+        )
+    endif()
+endforeach()
