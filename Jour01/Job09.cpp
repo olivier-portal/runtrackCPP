@@ -9,5 +9,5 @@ int main() {
     std::cout << "Enter three integers: ";
     std::cin >> numbers[0] >> numbers[1] >> numbers[2];
     std::sort(numbers, numbers + 3);
-    std::cout << "The numbers from the smallest to the biggest are: " << numbers[0] << " " << numbers[1] << " " << numbers[2] << std::endl;
+    std::cout << "The biggest number is: " << numbers[2] << std::endl;
 }
