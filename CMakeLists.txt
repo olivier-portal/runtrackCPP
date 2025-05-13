@@ -2,15 +2,18 @@ cmake_minimum_required(VERSION 3.31)
 project(runtrackCPP)
 
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(runtrackCPP
-        Jour01/Job00.cpp
-        Jour01/Job01.cpp
-        Jour01/Job02.cpp
-        Jour01/Job03.cpp
-        Jour01/Job04.cpp
-        Jour01/Job05.cpp
-        Jour01/Job06.cpp
-        Jour01/Job07.cpp
-        Jour01/Job08.cpp
-        Jour01/Job09.cpp)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/Jour01/bin)
+
+add_executable(Job00 Jour01/Job00.cpp)
+add_executable(Job01 Jour01/Job01.cpp)
+add_executable(Job02 Jour01/Job02.cpp)
+add_executable(Job03 Jour01/Job03.cpp)
+add_executable(Job04 Jour01/Job04.cpp)
+add_executable(Job05 Jour01/Job05.cpp)
+add_executable(Job06 Jour01/Job06.cpp)
+add_executable(Job07 Jour01/Job07.cpp)
+add_executable(Job08 Jour01/Job08.cpp)
+add_executable(Job09 Jour01/Job09.cpp)
+add_executable(Job10 Jour01/Job10.cpp)
