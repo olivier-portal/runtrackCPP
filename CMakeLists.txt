@@ -19,5 +19,6 @@ add_executable(Job09 Jour01/Job09.cpp)
 add_executable(Job10 Jour01/Job10.cpp)
 add_executable(Job11 Jour01/Job11.cpp)
 add_executable(Job12 Jour01/Job12.cpp)
-add_executable(Job13 Jour01/Job13.cpp)
+add_executable(Job13 Jour01/Job13.cpp
+        Jour01/Job13.cpp)
 add_executable(Job14 Jour01/Job14.cpp)
