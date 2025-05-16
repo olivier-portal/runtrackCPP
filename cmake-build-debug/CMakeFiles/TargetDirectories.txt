@@ -13,6 +13,11 @@ C:/Users/porta/CLionProjects/runtrackCPP/cmake-build-debug/CMakeFiles/Job11_J1.d
 C:/Users/porta/CLionProjects/runtrackCPP/cmake-build-debug/CMakeFiles/Job12_J1.dir
 C:/Users/porta/CLionProjects/runtrackCPP/cmake-build-debug/CMakeFiles/Job13_J1.dir
 C:/Users/porta/CLionProjects/runtrackCPP/cmake-build-debug/CMakeFiles/Job14_J1.dir
+C:/Users/porta/CLionProjects/runtrackCPP/cmake-build-debug/CMakeFiles/Job00_J2.dir
 C:/Users/porta/CLionProjects/runtrackCPP/cmake-build-debug/CMakeFiles/Job01_J2.dir
+C:/Users/porta/CLionProjects/runtrackCPP/cmake-build-debug/CMakeFiles/Job02_J2.dir
+C:/Users/porta/CLionProjects/runtrackCPP/cmake-build-debug/CMakeFiles/Job03_J2.dir
+C:/Users/porta/CLionProjects/runtrackCPP/cmake-build-debug/CMakeFiles/Job04_J2.dir
+C:/Users/porta/CLionProjects/runtrackCPP/cmake-build-debug/CMakeFiles/Job05_J2.dir
 C:/Users/porta/CLionProjects/runtrackCPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/porta/CLionProjects/runtrackCPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,240 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "runtrackCPP",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Job00_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job00_J1-Debug-366a2a665b8f1ce93130.json",
+					"name" : "Job00_J1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job00_J2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job00_J2-Debug-b4329dd84a2def440ee7.json",
+					"name" : "Job00_J2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job01_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job01_J1-Debug-7b461eace3f21b9efd42.json",
+					"name" : "Job01_J1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job01_J2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job01_J2-Debug-5909ca1ab36a05a8f028.json",
+					"name" : "Job01_J2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job02_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job02_J1-Debug-45f95a10244507a1286d.json",
+					"name" : "Job02_J1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job02_J2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job02_J2-Debug-8218a5096eeb3ac56722.json",
+					"name" : "Job02_J2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job03_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job03_J1-Debug-612bd8900e2a3d4d35fe.json",
+					"name" : "Job03_J1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job03_J2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job03_J2-Debug-42ff5af1d3e3256d8e10.json",
+					"name" : "Job03_J2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job04_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job04_J1-Debug-a86f3e65a6bf14933370.json",
+					"name" : "Job04_J1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job04_J2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job04_J2-Debug-305e78eb8a8fc893bd8a.json",
+					"name" : "Job04_J2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job05_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job05_J1-Debug-5e9b922943a3c64c67c1.json",
+					"name" : "Job05_J1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job05_J2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job05_J2-Debug-f98a1ef457a08e7067c1.json",
+					"name" : "Job05_J2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job06_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job06_J1-Debug-134f8e6bbfb8b9f1511c.json",
+					"name" : "Job06_J1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job07_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job07_J1-Debug-1d6f0825ab846ffce3df.json",
+					"name" : "Job07_J1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job08_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job08_J1-Debug-40c609a08f8cad71e98f.json",
+					"name" : "Job08_J1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job09_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job09_J1-Debug-ab8075ee6ebad8ace2ae.json",
+					"name" : "Job09_J1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job10_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job10_J1-Debug-91f7cb3444d5c611f9de.json",
+					"name" : "Job10_J1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job11_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job11_J1-Debug-531f8e32961f067c29b8.json",
+					"name" : "Job11_J1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job12_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job12_J1-Debug-dac6656d810a4f384e25.json",
+					"name" : "Job12_J1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job13_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job13_J1-Debug-b1674f99ff30bffc6e2f.json",
+					"name" : "Job13_J1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Job14_J1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Job14_J1-Debug-5416898cf6bf01d076d1.json",
+					"name" : "Job14_J1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/porta/CLionProjects/runtrackCPP/cmake-build-debug",
+		"source" : "C:/Users/porta/CLionProjects/runtrackCPP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

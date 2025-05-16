@@ -1,0 +1,10 @@
+"C:\Program Files\JetBrains\CLion 2025.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2025.1.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\porta\CLionProjects\runtrackCPP -B C:\Users\porta\CLionProjects\runtrackCPP\cmake-build-debug
+CMake Error at CMakeLists.txt:40 (if):
+  if given arguments:
+
+    "EXISTS" "C:/Users/porta/CLionProjects/runtrackCPP/Jour02/Job00.cpp" "Jour02/Job08.cpp" "Jour02/Job09.cpp"
+
+  Unknown arguments specified
+
+
+-- Configuring incomplete, errors occurred!
